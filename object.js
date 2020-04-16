@@ -12,4 +12,11 @@ var II = {
     exportStr: function(){console.log(this.name,this.population)}
 };
 
+var III = {
+    name: "Antalya",
+    population: 54300000,
+    GetName: function(){console.log(this.name)},
+    exportStr: function(){console.log(this.name,this.population)}
+};
+
 city1.test="12345";
